@@ -1,3 +1,0 @@
-D:\DownLoads\CMake\cmake-4.3.1-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\process.dir/objects.a
-D:\DownLoads\Mingw15.2.0\x86_64-15.2.0-release-posix-seh-ucrt-rt_v13-rev1\mingw64\bin\ar.exe qc CMakeFiles\process.dir/objects.a @CMakeFiles\process.dir\objects1.rsp
-D:\DownLoads\Mingw15.2.0\x86_64-15.2.0-release-posix-seh-ucrt-rt_v13-rev1\mingw64\bin\g++.exe -g -shared -o D:\Demo\VsCode(C++)\CMake_planning_demo\CMake_planning_demo\bin\libprocess.dll -Wl,--out-implib,libprocess.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\process.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\process.dir\linkLibs.rsp
