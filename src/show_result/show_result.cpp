@@ -13,7 +13,7 @@
 // }
 // #endif
 
-//直接去easyx.h里面添加一行
+// 直接去easyx.h里面添加一行
 // void *__imp___iob_func = 0;
 // 这样也能解决MinGW和EasyX的兼容性问题了
 
