@@ -115,6 +115,45 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named planning_main
+
+# Build rule for target.
+planning_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 planning_main
+.PHONY : planning_main
+
+# fast build rule for target.
+planning_main/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\planning_main.dir\build.make src/CMakeFiles/planning_main.dir/build
+.PHONY : planning_main/fast
+
+#=============================================================================
+# Target rules for targets named pnc_map
+
+# Build rule for target.
+pnc_map: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pnc_map
+.PHONY : pnc_map
+
+# fast build rule for target.
+pnc_map/fast:
+	$(MAKE) $(MAKESILENT) -f src\pnc_map\CMakeFiles\pnc_map.dir\build.make src/pnc_map/CMakeFiles/pnc_map.dir/build
+.PHONY : pnc_map/fast
+
+#=============================================================================
+# Target rules for targets named process
+
+# Build rule for target.
+process: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 process
+.PHONY : process
+
+# fast build rule for target.
+process/fast:
+	$(MAKE) $(MAKESILENT) -f src\process\CMakeFiles\process.dir\build.make src/process/CMakeFiles/process.dir/build
+.PHONY : process/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -123,6 +162,9 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... planning_main
+	@echo ... pnc_map
+	@echo ... process
 .PHONY : help
 
 

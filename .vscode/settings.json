@@ -1,0 +1,9 @@
+{
+// 让 Tab 触发补全，Enter 只换行
+"editor.acceptSuggestionOnEnter": "off",
+"editor.tabCompletion": "on",
+
+// 可选：让回车只换行，即使选中提示也不补全
+"editor.suggestSelection": "first",
+"editor.suggest.acceptOnEnter": "off"
+}

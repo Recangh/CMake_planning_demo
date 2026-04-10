@@ -1,7 +1,10 @@
 {
 	"InstallScripts" : 
 	[
-		"D:/Demo/VsCode(C++)/CMake_planning_demo/CMake_planning_demo/build/cmake_install.cmake"
+		"D:/Demo/VsCode(C++)/CMake_planning_demo/CMake_planning_demo/build/cmake_install.cmake",
+		"D:/Demo/VsCode(C++)/CMake_planning_demo/CMake_planning_demo/build/src/cmake_install.cmake",
+		"D:/Demo/VsCode(C++)/CMake_planning_demo/CMake_planning_demo/build/src/pnc_map/cmake_install.cmake",
+		"D:/Demo/VsCode(C++)/CMake_planning_demo/CMake_planning_demo/build/src/process/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/Demo/VsCode(C++)/CMake_planning_demo/CMake_planning_demo/build/src",
+  "command": "D:\\DownLoads\\Mingw15.2.0\\x86_64-15.2.0-release-posix-seh-ucrt-rt_v13-rev1\\mingw64\\bin\\g++.exe  @CMakeFiles/planning_main.dir/includes_CXX.rsp -g -o CMakeFiles\\planning_main.dir\\planning_main.cpp.obj -c D:\\Demo\\VsCode(C++)\\CMake_planning_demo\\CMake_planning_demo\\src\\planning_main.cpp",
+  "file": "D:/Demo/VsCode(C++)/CMake_planning_demo/CMake_planning_demo/src/planning_main.cpp",
+  "output": "src/CMakeFiles/planning_main.dir/planning_main.cpp.obj"
+},
+{
+  "directory": "D:/Demo/VsCode(C++)/CMake_planning_demo/CMake_planning_demo/build/src/pnc_map",
+  "command": "D:\\DownLoads\\Mingw15.2.0\\x86_64-15.2.0-release-posix-seh-ucrt-rt_v13-rev1\\mingw64\\bin\\g++.exe -Dpnc_map_EXPORTS  -g -o CMakeFiles\\pnc_map.dir\\pnc_map.cpp.obj -c D:\\Demo\\VsCode(C++)\\CMake_planning_demo\\CMake_planning_demo\\src\\pnc_map\\pnc_map.cpp",
+  "file": "D:/Demo/VsCode(C++)/CMake_planning_demo/CMake_planning_demo/src/pnc_map/pnc_map.cpp",
+  "output": "src/pnc_map/CMakeFiles/pnc_map.dir/pnc_map.cpp.obj"
+},
+{
+  "directory": "D:/Demo/VsCode(C++)/CMake_planning_demo/CMake_planning_demo/build/src/process",
+  "command": "D:\\DownLoads\\Mingw15.2.0\\x86_64-15.2.0-release-posix-seh-ucrt-rt_v13-rev1\\mingw64\\bin\\g++.exe -Dprocess_EXPORTS @CMakeFiles/process.dir/includes_CXX.rsp -g -o CMakeFiles\\process.dir\\process.cpp.obj -c D:\\Demo\\VsCode(C++)\\CMake_planning_demo\\CMake_planning_demo\\src\\process\\process.cpp",
+  "file": "D:/Demo/VsCode(C++)/CMake_planning_demo/CMake_planning_demo/src/process/process.cpp",
+  "output": "src/process/CMakeFiles/process.dir/process.cpp.obj"
+}
+]
